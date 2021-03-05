@@ -19,8 +19,8 @@ The app is engineered by the fellows of Our Time For Tech's CodeCollab track. Th
 **Sara Lopez**: *Web developer with PHP and JavaScript experience. Currently learning ReactJS and always keen to try new languages and frameworks. Interested in everything related to eCommerce*
 [Twitter](https://twitter.com/saradotlog) | [Linkedin](https://www.linkedin.com/in/sara-lopez-3311645a/) | [GitHub](https://github.com/saradotlog/)
 
-**Fake Name**: *Short Blurb about Fake Name. Short Blurb about Fake Name. Short Blurb about Fake Name. Short Blurb about Fake Name. Short Blurb about Fake Name.*
-[Twitter](https://twitter.com) | [Blog](https://arit.dev) | [GitHub](https://github.com)
+**Cam Bui**: *Web developer with a background in health science. I love seeing what happens when we give people different tools and strategies to solve their problems*
+[Twitter](https://twitter.com/dordsichord) | [Blog](https://dev.to/dordsichord) | [GitHub](https://github.com/ncbui)
 
 **Timi Bello**: *Web Developer who is enthusiastic about creating solutions to everyday problems, and sharing knowledge. Eager to learn new languages and frameworks.*
 [Twitter](https://twitter.com/zoebreed) | [LinkedIn](https://www.linkedin.com/in/oluwatimilehin-bello-0376871aa/) | [GitHub](https://github.com/Timilehin08/)
