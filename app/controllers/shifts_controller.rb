@@ -3,7 +3,7 @@ class ShiftsController < ApplicationController
 
   # GET /shifts or /shifts.json
   def index
-    @shifts = Shift.all
+    @shifts = Shift.all.order("created_at DESC")
   end
 
   # GET /shifts/1 or /shifts/1.json
