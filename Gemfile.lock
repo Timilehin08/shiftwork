@@ -58,7 +58,6 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    bigdecimal (3.0.0)
     bindex (0.8.1)
     bootsnap (1.7.2)
       msgpack (~> 1.0)
@@ -100,6 +99,9 @@ GEM
     minitest (5.14.4)
     msgpack (1.4.2)
     nio4r (2.5.7)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     pg (1.2.3)
@@ -200,6 +202,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionpack (>= 6.0.3.5)
+  activerecord (>= 6.0.3.5)
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
@@ -213,6 +217,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
+  tzinfo-data
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
