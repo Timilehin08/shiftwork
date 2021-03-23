@@ -1,6 +1,7 @@
 class ShiftsController < ApplicationController
   before_action :set_shift, only: %i[ show edit update destroy ]
-  rescue_from ActiveRecord::RecordNotFound, with: :render_404
+  rescue_from ActiveRecord::RecordNotFound, with: :render_not_found
+
   # GET /shifts or /shifts.json
   def index
     @shifts = Shift.all.order("created_at DESC")
@@ -55,10 +56,6 @@ class ShiftsController < ApplicationController
       format.json { head :no_content }
     end
   end
-
-  # def render_not_found
-  #   render :file => "#{RAILS_ROOT}/public/404.html",  :status => 404
-  # end
   
   private
     # Use callbacks to share common setup or constraints between actions.
@@ -66,9 +63,7 @@ class ShiftsController < ApplicationController
       @shift = Shift.find(params[:id])
       raise ActiveRecord::RecordNotFound unless @shift
     end
-    def render_404
-      render :file => "#{Rails.root}/public/404.html",  layout: false, status: :not_found
-    end
+
     # Only allow a list of trusted parameters through.
     def shift_params
       params.require(:shift).permit(:shift_status, :role_name, :shift_start, :shift_end, :shift_pay)
