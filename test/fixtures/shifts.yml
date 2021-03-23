@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shift_status: false
+  role_name: MyString
+  shift_start: 2021-03-17 13:57:02
+  shift_end: 2021-03-17 13:57:02
+  shift_pay: 1
+
+two:
+  shift_status: false
+  role_name: MyString
+  shift_start: 2021-03-17 13:57:02
+  shift_end: 2021-03-17 13:57:02
+  shift_pay: 1
