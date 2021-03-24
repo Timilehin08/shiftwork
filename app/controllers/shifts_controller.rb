@@ -1,4 +1,5 @@
 class ShiftsController < ApplicationController
+  before_action :authenticate_user!, only: %i[ index show edit update destroy ]
   before_action :set_shift, only: %i[ show edit update destroy ]
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found
 
